@@ -4,7 +4,7 @@
 
 > Background: With over 200 million users, MercadoLibre is the most popular e-commerce site in Latin America.
 
-> Purpose: In this activity, we used our newfound Python, time-series, and Prophet skills to to find out whether the ability to predict search traffic at MercadoLibre can translate into successfully trading the stock.  
+> Purpose: In this activity, we use our newfound Python, time-series, and Prophet skills to to find out whether the ability to predict search traffic at MercadoLibre can translate into successfully trading the stock.  
 
 ## Table of Contents
 * [General Info](#general-information)
