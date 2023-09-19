@@ -20,49 +20,62 @@
 <!-- * [License](#license) -->
 
 ## General Information
-- Our project was designed to use Scikit-learn libraries, including sklearn preprocessing, cluster, decomposition, and algorithms KMeans and PCA to analyze factors, or features, in the cryptocurrency market.
+- Our project was designed to use Facebook's time-series forecasting Prophet model within Google's Colab IDE environment.
 
 ## Technologies Used
 - Python Version 3.10.12
 - Prophet Version 1.1.4
-- Jupyter Notebook within the VS Code IDE for both Jupyter Notebook 'crypto_investments.ipynb' and a README markdown file.
+- Jupyter Notebook within the Google Colab IDE for purposes of compatibility with Facebook's Prophet model.
 
 ## Features
 
 ## Screenshots
-##### `Sample project screenshot depicts comparison of KMeans clustering models for cryptocurrency scaled market data before and after feature reduction using Principal Component Analysis (PCA):`
 
-![A screenshot depicts comparison of KMeans clustering models for cryptocurrency scaled market data before and after feature reduction using Principal Component Analysis (PCA).](Images/final_analysis_cluster_comparisons.png)
+MercadoLibre Google Search traffic by day of week
+![A screenshot depicts MercadoLibre Google Search traffic by day of week.](Images/Day_of_Week_Search_Traffic.png)
+
+MercadoLibre Google Search traffic heat map by day of week and hour
+![A screenshot depicts MercadoLibre Google Search traffic heat map by day of week and hour.](Images/Day_of_Week_Hourly_Search_Trend_Heat_Map.png)
+
+Forecasted MercadoLibre quarterly revenue predicted using Facebook's Prophet model
+![A screenshot depicts forecasted MercadoLibre quarterly revenue using Facebook's Prophet model.](Images/Quarterly_Revenue_Forecast_Prophet_Model.png)
 
 ## Setup
 - GitHub Repository
-    - name: 'unsupervised-learning-challenge'
-    - location: uploaded to Bootcamp homework submission online portal and available publicly at:
-        - [GitHub Repository](git@github.com:boz-tcm/unsupervised-learning-challenge.git)
-- Python Standard Library (Version 3.10.12)
+    - name: 'time-series-challenge'
+    - location: uploaded as https link to Bootcamp's designated homework submission online portal, and available as public repository at:
+        - [GitHub Repository](https://github.com/boz-tcm/time-series-challenge.git)
+- Python Standard Library Version 3.10.12
 - Python Libraries and Modules:
+    - !pip install pystan
+    - !pip install prophet
+    - !pip install hvplot
+    - !pip install holoviews
     - prophet 1.1.4
     - pathlib and Path function
+    - pandas
     - hvplot.pandas
-    - sklearn.preprocessing and StandardScaler object
-    - sklearn.cluster and KMeans object
-    - sklearn.decomposition and PCA object
+    - holoviews
+    - numpy
+    - matplotlib
+    - datetime
+
 - Jupyter Notebook(s):
-    - name: 'crypto_investments.ipynb'
-    - location: 'unsupervised-learning-challenge/'
+    - name: 'forecasting_net_prophet.ipynb'
+    - location: 'time-series-challenge/'
 - Data
-    - location: 'unsupervised-learning-challenge/Resources/'
+    - location: 'time-series-challenge/Resources/'
 - Images
-    - location: 'unsupervised-learning-challenge/Images'
+    - location: 'time-series-challenge/Images'
 
 ## Usage
-The script is run in the Jupyter Notebook 'crypto_investments.ipynb', within the 'unsupervised-learning-challenge' directory, executed using the Notebook environment's 'Run All Cells...' command.
+The script is run in the Jupyter Notebook 'forecasting_net_prophet.ipynb', within the 'time-series-challenge' directory, executed using Google's Colab IDE.
 
 ## Project Status
 Project is: _complete
 
 ## Room for Improvement
-Room for improvement:   _
+Room for improvement:  _
 
 To do:  _
 
@@ -72,3 +85,5 @@ To do:  _
 Created by Todd C. Meier, tmeier@bozcompany.com - feel free to contact me!
 
 <!-- ## License --> All rights reserved.
+
+Last updated:  September 19, 2023. 
